@@ -1,5 +1,5 @@
 {
-  "name": "openstackci-ssl_cert_check",
+  "name": "openstackinfra-ssl_cert_check",
   "version": "0.0.1",
   "author": "OpenStack CI",
   "summary": "Puppet module for SSL Certificate Check",
