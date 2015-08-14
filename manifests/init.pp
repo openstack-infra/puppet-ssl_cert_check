@@ -1,9 +1,9 @@
 # == Class: ssl_cert_check
 #
 class ssl_cert_check(
-  $domainlist_file = '',
-  $email = '',
-  $days = ''
+  $domainlist_file,
+  $email = 'root',
+  $days = '30',
 ) {
   package { 'ssl-cert-check':
     ensure => present,
