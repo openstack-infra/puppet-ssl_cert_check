@@ -2,8 +2,8 @@
 #
 class ssl_cert_check(
   $domainlist_file,
+  $days  = '30',
   $email = 'root',
-  $days = '30',
 ) {
   package { 'ssl-cert-check':
     ensure => present,
