@@ -1,5 +1,3 @@
-# OpenStack SSL Certificate Check Module
+# This repo has moved to OpenDev
 
-## Overview
-
-Configures SSL Certificate Check.
+It can now be found at [https://opendev.org/opendev/puppet-ssl_cert_check](https://opendev.org/opendev/puppet-ssl_cert_check)
